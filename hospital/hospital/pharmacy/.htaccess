@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^product-detail detail.php [NC,L]
+RewriteRule ^products products.php [NC,L]
+RewriteRule ^contact-us contact.php [NC,L]
+RewriteRule ^about-us about.php [NC,L]
+RewriteRule ^FAQ faq.php [NC,L]
+RewriteRule ^register register.php [NC,L]
+RewriteRule ^signin signin.php [NC,L]
+RewriteRule ^cart cart.php [NC,L]
+RewriteRule ^user-dashboard user_dashboard.php [NC,L]
+RewriteRule ^razorpay pay_script.php [NC,L]
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

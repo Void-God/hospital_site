@@ -1,0 +1,106 @@
+.padding-high{
+  padding:70px;
+  background-color:#93d9cd;
+  border-radius:10px
+}
+
+@media only screen and (max-width:1100px) {
+    .padding-high {padding:20px}
+}
+
+.dashboard-form {
+  padding: 0px 0px;
+}
+.col-md-6, .container {
+  float:left;
+}
+.pad-primary{
+  padding-left:12%;
+  padding-right:12%;
+}
+
+@media only screen and (max-width:550px) {
+  .pad-primary{
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .col-md-6 ,.container {
+    width:auto;
+  }
+}
+
+.dashboard-btn button{
+  width:60%;
+  height:42px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  border-radius:23px;
+      background-color: #428bca;
+    border-color: #357ebd;
+}
+.dashboard-btn button:hover {
+    background-color: ;
+    border-color: ; 
+}
+@media only screen and (max-width: 1000px) and (min-width:400px) {
+  .dashboard-btn button{
+    width:60%;
+    height:42px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+  }
+}
+
+.black {
+  color:#212529
+}
+
+.time-change{
+  width:38%;
+  display:inline;
+}
+.select-change{
+  width:20%;
+  padding: 0px 0px !important;
+  display:inline;
+}
+
+.form-cs {
+    position: relative;
+}
+
+
+.file-input {
+  padding: 9px 15px !important;
+  overflow-x:hidden;
+}
+
+.form-100 {
+  width:90%;
+}
+
+.btn-trans {
+  border-radius:50% !important;
+  background-color: #28a745 !important;
+  border-color:transparent;
+  height: 48px;
+    width: 48px;
+}
+
+
+.check-med {
+  height:20px;
+  width:20px;
+
+}
+
+.border-pres {
+  border-top:2px black solid;
+  border-bottom:2px solid black
+}
+.button-pres {
+  margin:10px auto;
+  display:block;
+}
